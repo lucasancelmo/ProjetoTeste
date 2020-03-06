@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+	$(function() {
+		$("#nav-placeholder").load("nav.html");
+	});
+</script>
+
+<script>
+function enviarEmail() {
+  alert("Isso será implementado num futuro próximo, eu espero");
+}
+</script>
+<link href="css/inline-list.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://www.kevinleary.net/wp-samples/css/base.css"	rel="stylesheet">
+<link rel="icon" href="img/bike.gif" type="image/gif" >
+
+
+<title>Contato</title>
+
+</head>
+<body>
+	<div id="nav-placeholder"></div>
+	<div>
+		<div id="nav-placeholder"></div>
+		<div>
+			<form action="#" onsubmit="return enviarEmail();">
+				Nome:<br> <input type="text" name="name"><br>
+				E-mail:<br> <input type="text" name="mail"><br>
+				Comentário:<br>
+				<textarea id="comment" name="comment" cols="45" rows="8"
+					maxlength="65525"></textarea>
+				<br> <input type="submit" value="Enviar">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

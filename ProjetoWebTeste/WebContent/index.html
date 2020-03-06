@@ -1,10 +1,37 @@
+<!-- Abandon all hope, ye who enter here. -->
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Página Inicial</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+	$(function() {
+		$("#nav-placeholder").load("nav.html");
+	});
+</script>
+<link href="css/inline-list.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://www.kevinleary.net/wp-samples/css/base.css"
+	rel="stylesheet">
+<link rel="icon" href="img/bike.gif" type="image/gif">
+
+<title>Pagina Inicial</title>
+
 </head>
 <body>
+	<div id="nav-placeholder"></div>
+	<div class="wrapper">
+		<div class="center">
+			<h1>Bem Vindo</h1>
+		</div>
+		<div class="center">
+			<h2>Fique a vontade e aproveite as grandes funcionalidades que
+				este site possui.</h2>
+		</div>
+	</div>
 
+	<div class="center">
+		<img src="img/joinha.gif" alt="Topper">
+	</div>
 </body>
 </html>
